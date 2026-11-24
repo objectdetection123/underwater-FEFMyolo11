@@ -1,0 +1,25 @@
+# Ultralytics YOLO 🚀, AGPL-3.0 license
+# Signature dataset by Ultralytics
+# Documentation: https://docs.ultralytics.com/datasets/detect/signature/
+# Example usage: yolo train data=signature.yaml
+# parent
+# ├── ultralytics
+# └── datasets
+#     └── signature  ← downloads here (11.2 MB)
+
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+path: /root/autodl-tmp/ultralytics-mainyolo11/datasets/underwater333 # dataset root dir
+train: /root/autodl-tmp/ultralytics-mainyolo11/datasets/underwater333/train/images # train images (relative to 'path') 143 images
+
+val: /root/autodl-tmp/ultralytics-mainyolo11/datasets/underwater333/val/images # val images (relative to 'path') 35 images
+test: /root/autodl-tmp/ultralytics-mainyolo11/datasets/underwater333/test/images
+# Classes
+
+names:
+  0: holothurian
+  1: echinus
+  2: scallop
+  3: starfish
+  
+
+
